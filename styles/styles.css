@@ -1,2 +1,19 @@
 :root {
+  --primary: #3882f6;
+  --secondary: #1f2937;
+
+  --background-primary: #1f2937;
+  --background-secondary: #f9faf8;
+  --background-tertiary: #e5e7eb;
+
+  --text-primary: #f9faf8;
+  --text-secondary: #1f2937;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+
+  display: flex;
+  flex-direction: column;
 }
